@@ -12,10 +12,10 @@ npm install
 
 ### Run the app
 ```sh
-node index.js
+npm start
 ```
 
-### commands
+### Commands
 - `options`: print available commands
 - `dt`: print current date and time
 - `dy`: print current day of the year
