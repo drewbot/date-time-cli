@@ -42,7 +42,7 @@ rl.on('line', (line) => {
       break;
     default:
       console.log(`Say what? you said: '${line.trim()}',
-        here are the possible commands:
+        here are the available commands:
         'dt' (date / time)
         'dy' (day / year)
         'seconds'
