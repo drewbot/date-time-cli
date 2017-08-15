@@ -25,6 +25,7 @@ rl.on('line', (line) => {
         'seconds'
         'daylight'
         'leap'`);
+      break
     case 'dt':
       ts.printDateTime();
       break;
