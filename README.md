@@ -2,7 +2,6 @@
 
 A simple Node.js CLI for getting current date and time information.
 
-
 ### Setup
 ```sh
 git clone git@github.com:drewbot/date-time-cli.git

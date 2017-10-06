@@ -19,7 +19,7 @@ rl.prompt();
 rl.on('line', (line) => {
   switch (line.trim()) {
     case 'options':
-      console.log(`here are the possible commands:
+      console.log(`Available commands:
         'dt' (date / time)
         'dy' (day / year)
         'seconds'
@@ -43,7 +43,7 @@ rl.on('line', (line) => {
       break;
     default:
       console.log(`Say what? you said: '${line.trim()}',
-        here are the available commands:
+        Available commands:
         'dt' (date / time)
         'dy' (day / year)
         'seconds'
